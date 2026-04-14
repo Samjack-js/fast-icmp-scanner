@@ -35,7 +35,19 @@ It works similarly to basic network discovery tools like `ping sweep` or `nmap -
 
 ---
 
+## Example Output
+[+] Scanning 192.168.1.0/24...
+[+] Host alive: 192.168.1.1
+[+] Host alive: 192.168.1.10
+
+[+] Scan complete!
+[+] Hosts found: 2
+
+---
+
 ## 📌 Usage
 
 ```bash
-python scanner.py
+python icmp_fast_scan.py 192.168.1.0/24
+
+
